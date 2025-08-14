@@ -1,0 +1,11 @@
+config:
+  cloudflare-tunnel-ingress-controller:namespace: cloudflare-tunnel-ingress-controller
+  cloudflare-tunnel-ingress-controller:controllerVersion: v0.5.1
+  cloudflare-tunnel-ingress-controller:installCRDs: false
+  cloudflare-tunnel-ingress-controller:cloudflareAccountId: ""
+  cloudflare-tunnel-ingress-controller:cloudflareApiToken: "${secret:YOUR_TOKEN}"
+  cloudflare-tunnel-ingress-controller:tunnelName: your-favorite-tunnel-name
+  # Helm settings
+  cloudflare-tunnel-ingress-controller:helmRepo: https://helm.strrl.dev
+  cloudflare-tunnel-ingress-controller:helmChart: cloudflare-tunnel-ingress-controller
+  # cloudflare-tunnel-ingress-controller:helmChartVersion: 0.1.0
