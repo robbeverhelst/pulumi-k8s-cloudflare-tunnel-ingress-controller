@@ -1,0 +1,7 @@
+name: cloudflare-tunnel-ingress-controller
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+description: Cloudflare Tunnel Ingress Controller on Kubernetes via Pulumi
+main: src/index.ts
